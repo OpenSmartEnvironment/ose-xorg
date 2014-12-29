@@ -1,8 +1,12 @@
-# Open Smart Environment X.Org package
+# Open Smart Environment - X.Org
+This package is a part of OSE suite.
+The main advantage of OSE is the easy creation of applications
+consisting of multiple instances working as a single whole. The
+objective is to develop an all-encompassing personal mesh running
+various devices including HTPCs, phones, tablets, workstations,
+servers, Raspberry Pis, home automation gadgets, wearables, drones etc.
 
-This package allows to control the X.Org server with xdotool.
-
-See [bundle.media](http://opensmartenvironment.github.io/doc/modules/bundle.media.html) example application
+For more information about OSE see **the [documentation](http://opensmartenvironment.github.io/doc/)**.
 
 ## Status
 - Pre-alpha stage (insecure and buggy)
@@ -16,46 +20,23 @@ to understand the basic principles covered by the
 
 Use of this software is currently recommended only for users that
 wish participate in the development process, see
-[Contributions](#contributions).
+[contributions](http://opensmartenvironment.github.io/doc/#contrib).
 
-## Getting started
-To get started with OSE, refer to the [ose-bundle](http://opensmartenvironment.github.io/doc/modules/bundle.html) package and
-[Media player example application](http://opensmartenvironment.github.io/doc/modules/bundle.media.html). You can read the entire OSE
-documentation [here]( http://opensmartenvironment.github.io/doc).
+## Platforms
+OSE is developed in JavaScript on the following platforms.
+- Node.js (>0.10) running on Debian Jessie and Raspbian
+- recent versions of Firefox
+- recent versions of Chromium/Chrome
 
-## Modules
-Open Smart Environment X.Org package consists of the following modules:
-- X.Org server kind
-- OSE X.Org core
-- OSE X.Org content
+It, however, probably also runs on other recent browsers and Linux
+distributions.
 
-### X.Org server kind
-[Entry kind](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html) for X.Org server
+## Package description
+This package allows to control the X.Org server with xdotool.
 
-It uses xdotool to remotely control the desktop.
+See [Media player example].
 
-Module [X.Org server kind](http://opensmartenvironment.github.io/doc/classes/xorg.lib.xorg.html) reference ... 
-
-### OSE X.Org core
-Core singleton of ose-xorg npm package. Registers [entry kinds](http://opensmartenvironment.github.io/doc/classes/ose.lib.kind.html)
-defined by this package to the `"control"` [scope](http://opensmartenvironment.github.io/doc/classes/ose.lib.scope.html).
-
-Module [OSE X.Org core](http://opensmartenvironment.github.io/doc/classes/xorg.lib.html) reference ... 
-
-### OSE X.Org content
-Provides files of OSE X.Org package to the browser.
-
-Module [OSE X.Org content](http://opensmartenvironment.github.io/doc/classes/xorg.content.html) reference ... 
-
-## <a name="contributions"></a>Contributions
-To get started contributing or coding, it is good to read about the
-two main npm packages [ose](http://opensmartenvironment.github.io/doc/modules/ose.html) and [ose-bb](http://opensmartenvironment.github.io/doc/modules/bb.html).
-
-This software is in the pre-alpha stage. At the moment, it is
-premature to file bugs. Input is, however, much welcome in the form
-of ideas, comments and general suggestions.  Feel free to contact
-us via
-[github.com/opensmartenvironment](https://github.com/opensmartenvironment).
+The documentation for "ose-xorg" package can be found **[here](http://opensmartenvironment.github.io/doc/#ose-xorg#)**.
 
 ## Licence
 This software is released under the terms of the [GNU General

@@ -10,10 +10,10 @@ exports = require('ose')
  */
 
 /**
- * @caption OSE X.Org content
+ * @caption X.Org content
  *
  * @readme
- * Provides files of OSE X.Org package to the browser.
+ * Provides files of [ose-xorg] package to the browser.
  *
  * @class xorg.content
  * @type singleton
