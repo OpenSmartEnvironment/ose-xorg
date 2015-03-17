@@ -1,9 +1,7 @@
 'use strict';
 
-exports = require('ose')
-  .singleton(module, 'ose/lib/http/content')
-  .exports
-;
+var O = require('ose').object(module, Init, 'ose/lib/http/content');
+exports = O.init();
 
 /** Docs  {{{1
  * @module xorg
@@ -21,7 +19,9 @@ exports = require('ose')
  */
 
 // Public {{{1
-exports.addFiles = function() {
+function Init() {
+  O.super.call(this);
+
   this.addModule('lib/index');
   this.addModule('lib/xorg/index');
   this.addModule('lib/xorg/bb/gesture');
