@@ -24,5 +24,5 @@ function Init() {
 
   this.addModule('lib/index');
   this.addModule('lib/xorg/index');
-  this.addModule('lib/xorg/bb/gesture');
+  this.addModule('lib/xorg/gaia/gesture');
 };
