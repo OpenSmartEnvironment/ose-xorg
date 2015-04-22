@@ -1,6 +1,6 @@
 {
   "name": "ose-xorg",
-  "version": "0.1.4",
+  "version": "0.1.10",
   "author": "Jan Snasel <snaselj@gmail.com>",
   "description": "Open Smart Environment X.Org package",
   "contributors": [
