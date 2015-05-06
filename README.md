@@ -1,5 +1,5 @@
 # Open Smart Environment - X.Org
-This package allows to control the X.Org server with xdotool.
+This package allows to control the mouse and pointer in X.Org
 
 See [Media player example](http://opensmartenvironment.github.io/doc/#mediaplayerexample).
 
